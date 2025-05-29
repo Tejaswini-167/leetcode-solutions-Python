@@ -8,7 +8,7 @@ A collection of my LeetCode problem solutions in Python.
 
 ## 🟡 Medium
 
-| 2 | Add Two Numbers | [Python](Medium/2-add-two-numbers.py) | [🔗](https://leetcode.com/problems/add-two-numbers/) |
+- [2.Add Two Numbers] (Medium/2-add-two-numbers.py)
 
 
 ## 🔴 Hard

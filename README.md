@@ -9,6 +9,7 @@ A collection of my LeetCode problem solutions in Python.
 
 ## 🟡 Medium
 - [2.Add Two Numbers](Medium/2-add-two-numbers.py)
+- [15.3sum](medium/15-3sums.py)
 
 
 

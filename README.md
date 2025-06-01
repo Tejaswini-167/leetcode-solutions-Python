@@ -6,7 +6,7 @@ A collection of my LeetCode problem solutions in Python.
 ## 🟢 Easy
 - [1. Two Sum](Easy/1-two-sum.py)
 - [9. palindrome numbers](Easy/9-palindrome-numbers.py)
-- [13. Ronam To Integer](https://github.com/Tejaswini-167/leetcode-solutions/blob/main/Easy/13_Roman_To_Integer.py)
+- [13. Roman To Integer](Easy/13_Roman_To_Integer.py)
 
 ## 🟡 Medium
 - [2.Add Two Numbers](Medium/2-add-two-numbers.py)

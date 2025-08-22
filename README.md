@@ -7,6 +7,8 @@ A collection of my LeetCode problem solutions in Python.
 - [1. Two Sum](Easy/1-two-sum.py)
 - [9. palindrome numbers](Easy/9-palindrome-numbers.py)
 - [13. Roman To Integer](Easy/13_Roman_To_Integer.py)
+- [344.Reverse_string](Easy/344.Reverse_string.py)
+- [345.Reverse_Vowel_Of_String](Easy/345.Reverse_Vowel_Of_String.py)
 
 ## 🟡 Medium
 - [2. Add Two Numbers](Medium/2-add-two-numbers.py)

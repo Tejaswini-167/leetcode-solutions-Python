@@ -8,7 +8,7 @@ class Solution:
 
             if nums[mid] == target:
                 return mid
-            elif target > nums[mid]:
+            elif  nums[mid] < target :
                 left = mid + 1
             else:
                 right = mid - 1

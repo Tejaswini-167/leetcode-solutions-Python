@@ -2,18 +2,18 @@ class Solution:
     def maxProfit(self, prices: List[int]) -> int:
 
         min = prices[0]
-        max = 0
+        profit = 0
 
         for price in  prices:
             if price < min:
                 min = price
 
-            profit = price - min
 
-            if profit > max:
-                max = profit
 
-        return max
+            if price - min > profit:
+                profit = price - min
+
+        return profit
 
         
         

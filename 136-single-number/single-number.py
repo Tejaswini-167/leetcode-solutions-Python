@@ -7,7 +7,7 @@ class Solution:
 
         freq = Counter(nums)
 
-        for i,val in enumerate(nums):
+        for val in (nums):
             if freq[val] == 1:
                 return val
             

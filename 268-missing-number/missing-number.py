@@ -3,11 +3,9 @@ class Solution:
  
         sum_nums = sum(nums)
     
-        sum_n = sum(range(0,len(nums)+1))
+        sum_total = sum(range(0,len(nums)+1))
             
-        ans = sum_n - sum_nums
-        
-        return ans
+        return sum_total - sum_nums
 
         
 

@@ -1,9 +1,13 @@
-class Solution:
-    def isPalindrome(self, s: str) -> bool:
+class Solution(object):
+    def isPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
         c = ""
 
         for ch in s:
             if ch.isalnum():
-                c += ch.lower()
-
+                c = c + ch.lower()
+        
         return c == c[::-1]

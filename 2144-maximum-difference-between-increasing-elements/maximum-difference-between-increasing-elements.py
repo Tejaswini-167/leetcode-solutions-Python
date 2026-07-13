@@ -1,16 +1,11 @@
-class Solution(object):
-    def maximumDifference(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
+class Solution:
+    def maximumDifference(self, nums: List[int]) -> int:
         small = nums[0]
         ans = -1
 
-        for x in nums[1:]:
-            if x > small:
-                ans = max(ans, x - small)
+        for i in nums[1:]:
+            if i > small:
+                ans = max(ans,i - small)
             else:
-                small = x
-
+                small = i
         return ans

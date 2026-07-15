@@ -1,7 +1,7 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        map1 = {}
-        map2 = {}
+        # map1 = {}
+        # map2 = {}
 
         # for i in range(len(s)):
 
@@ -18,6 +18,10 @@ class Solution:
         #         map2[t[i]] = s[i]
 
         # return True
+
+        map1 = {}
+        map2 = {}
+
 
         for i in range(len(s)):
             if s[i] not in map1:

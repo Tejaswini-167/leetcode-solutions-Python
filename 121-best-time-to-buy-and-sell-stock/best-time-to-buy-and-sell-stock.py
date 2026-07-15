@@ -4,14 +4,15 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        buy = prices[0]
+
+        mimimum = prices[0]
+
         maximum = 0
 
         for price in prices:
-            if price < buy:
-                buy = price
+            mimimum = min(mimimum,price)
+            maximum = max(maximum, price - mimimum)
             
-            if price - buy > maximum:
-                maximum = max(maximum, price - buy)
-
         return maximum
+
+    

@@ -1,10 +1,10 @@
 class Solution(object):
     def twoSum(self, nums, target):
-   
-        d = {}
-        for i, val in enumerate(nums):
-            x = target - val
+        dict = {}
 
-            if x in d:
-                return d[x],i
-            d[val] = i
+        for index, val in enumerate(nums):
+            ans = target - val
+            if ans in dict:
+                return dict[ans], index
+            dict[val] = index
+      
